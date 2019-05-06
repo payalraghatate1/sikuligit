@@ -13,7 +13,7 @@ public class facebookdemo {
 		Pattern forgtpasswd=new Pattern("E:\\selenim jar\\facebookimages\\forgotaccount.PNG");
 		Pattern backword=new Pattern("E:\\selenim jar\\facebookimages\\backword.PNG");
 		System.setProperty("webdriver.chrome.driver", "E:\\selenim jar\\New Chrome driver\\chromedriver_win32\\chromedriver.exe");
-		
+		System.out.println("raghatateeeee1");
 		Screen screen=new Screen();
 		Thread.sleep(5000);
 		screen.click(forgtpasswd);
